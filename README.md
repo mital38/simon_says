@@ -18,22 +18,5 @@ User inputs/outputs definition sheet:
 | Accelerometer              |  “Selects” user input sequence                               |  Compares user input to original                                                                                                     |
 | Switch                     |  Resets game                                                 | Exits loop if turned off, restarts game when turned on (interrupt)                                                                   |
 
-
-
-
-
-Resets game
-Exits loop if turned off, restarts game when turned on (interrupt)
-
-
-
-
-Sound will play if sequence is wrong
-
- 
-
-
-
-
 Scoring system: serial print score starting from 0 and will gain 1 point every time a correct sequence is entered and the next level is reached. 
 State Machine:
