@@ -15,7 +15,7 @@ User inputs/outputs definition sheet:
 | ------------- | ------------------------------ | ------------------------------------------------------------------ |
 | Left Button                |  Move selected LED to left                                   |  LED Lights up, index array changes                                                                                                  |
 | Right Button               |  Move selected LED to right                                  |  LED lights up, index array changes                                                                                                  |
-| Accelerometer              |  “Selects” user input sequence                               |  Compares user input to original                                                                                                     |
+| Accelerometer              |  “Selects” user input sequence                               |  Compares user input to original. Temporary sound will play. |
 | Switch                     |  Resets game                                                 | Exits loop if turned off, restarts game when turned on (interrupt)                                                                   |
 
 Scoring system: serial print score starting from 0 and will gain 1 point every time a correct sequence is entered and the next level is reached. 
