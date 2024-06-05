@@ -11,19 +11,13 @@ When the game starts a sequence of random LEDs will light up for one second each
 
 
 User inputs/outputs definition sheet:
-Input
-Function
-Output
-Left Button
-Move selected LED to left
-LED Lights up, index array changes
-Right Button
-Move selected LED to right
-LED lights up, index array changes
-Accelerometer
-“Selects” user input sequence
-Compares user input to original
-Switch
+| Input                          | Function                                                           | Output |
+| ------------- | ------------------------------ | ------------------------------------------------------------------ |
+| Left Button                |  Move selected LED to left                                   |  LED Lights up, index array changes                                                                                                  |
+| Right Button               |  Move selected LED to right                                  |  LED lights up, index array changes                                                                                                  |
+| Accelerometer              |  “Selects” user input sequence                               |  Compares user input to original                                                                                                     |
+| Switch                     |  Resets game                                                 | Exits loop if turned off, restarts game when turned on (interrupt)                                                                   |
+
 
 
 
