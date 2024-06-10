@@ -65,7 +65,7 @@ void loop() {
     totalAccel = read_accel(); //reads then updates
     //Serial.println(totalAccel);
 
-    if (totalAccel > 15 ){ 
+    if (totalAccel > 15 ){ // if code was entered
       if (idx == level_arr[cur]){ //determine if the player has pressed the correct button corresponding to the LED
         CircuitPlayground.playTone(midi[70],100); //plays correct tone
         green();
